@@ -9,7 +9,7 @@ const navigation = [
   { name: "Ziyoratlar", href: "#", current: false },
   { name: "Diqqatga sazovorlar joylar", href: "#", current: false },
   { name: "Galereya", href: "#", current: false },
-  { name: "Biz haqimizda", href: "#", current: false },
+  { name: "Biz haqimizda", href: "#", current: false },   
   { name: "Aloqa", href: "#", current: false },
 ];
 
