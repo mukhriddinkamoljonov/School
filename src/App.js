@@ -1,10 +1,11 @@
-import './App.css';
+import './App.css';import { Fragment } from 'react'
+import Navbar from './Components/Layout/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+   <>
+    <Navbar/>
+   </>
   );
 }
 
