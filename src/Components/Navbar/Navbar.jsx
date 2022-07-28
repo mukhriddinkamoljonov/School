@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
-import flag from "../../../assets/flag.png";
-import { FlagIcon } from "../../../assets/icon";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import flag from "../../assets/flag.png";
+
 const navigation = [
   { name: "Asosisiy", href: "#", current: false },
   { name: "Shaharlar", href: "#", current: false },
@@ -120,7 +120,7 @@ function Navbar() {
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="#"
+                                  href="/"
                                   className={classNames(
                                     active
                                       ? "bg-gray-100 text-gray-900"
@@ -135,7 +135,7 @@ function Navbar() {
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="#"
+                                  href="/"
                                   className={classNames(
                                     active
                                       ? "bg-gray-100 text-gray-900"
@@ -150,7 +150,7 @@ function Navbar() {
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="#"
+                                  href="/"
                                   className={classNames(
                                     active
                                       ? "bg-gray-100 text-gray-900"
