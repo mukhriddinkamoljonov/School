@@ -9,7 +9,7 @@ const navigation = [
   { name: "Ziyoratlar", href: "#", current: false },
   { name: "Diqqatga sazovorlar joylar", href: "#", current: false },
   { name: "Galereya", href: "#", current: false },
-  { name: "Biz haqimizda", href: "#", current: false },   
+  { name: "Biz haqimizda", href: "#", current: false },
   { name: "Aloqa", href: "#", current: false },
 ];
 
@@ -70,41 +70,41 @@ function Navbar() {
                   </div>
                   <div className="" style={{ marginLeft: "50px" }}>
                     <Menu as="div" className="relative inline-block text-left">
-                      <div>
+                      <div className="flex">
                         <Menu.Button className="ml-5 inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 text-sm font-medium text-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
                           <img src={flag} alt="" />
-                          <span className="mt-2 ml-3">
-                            <svg
-                              width="12"
-                              height="7"
-                              viewBox="0 0 12 7"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10.7904 1L6.1237 5.66667L1.45703 1"
-                                stroke="white"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                          </span>
-                          <span className="ml-3">
-                            <svg
-                              width="20"
-                              height="20"
-                              viewBox="0 0 20 20"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M8.40039 0.399994C3.99159 0.399994 0.400391 3.99119 0.400391 8.39999C0.400391 12.8088 3.99159 16.4 8.40039 16.4C10.3176 16.4 12.0783 15.7192 13.4582 14.5891L18.2348 19.3656C18.3085 19.4424 18.3968 19.5037 18.4945 19.5459C18.5922 19.5882 18.6973 19.6105 18.8038 19.6115C18.9102 19.6126 19.0158 19.5925 19.1143 19.5522C19.2129 19.512 19.3024 19.4525 19.3776 19.3773C19.4529 19.302 19.5124 19.2125 19.5526 19.1139C19.5929 19.0154 19.613 18.9098 19.6119 18.8034C19.6109 18.6969 19.5886 18.5918 19.5463 18.4941C19.5041 18.3964 19.4428 18.3081 19.366 18.2344L14.5895 13.4578C15.7196 12.0779 16.4004 10.3172 16.4004 8.39999C16.4004 3.99119 12.8092 0.399994 8.40039 0.399994ZM8.40039 1.99999C11.9445 1.99999 14.8004 4.8559 14.8004 8.39999C14.8004 11.9441 11.9445 14.8 8.40039 14.8C4.85629 14.8 2.00039 11.9441 2.00039 8.39999C2.00039 4.8559 4.85629 1.99999 8.40039 1.99999Z"
-                                fill="white"
-                              />
-                            </svg>
-                          </span>
                         </Menu.Button>
+                        <span className="mt-3">
+                          <svg
+                            width="12"
+                            height="7"
+                            viewBox="0 0 12 7"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10.7904 1L6.1237 5.66667L1.45703 1"
+                              stroke="white"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                        <span className="ml-3">
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M8.40039 0.399994C3.99159 0.399994 0.400391 3.99119 0.400391 8.39999C0.400391 12.8088 3.99159 16.4 8.40039 16.4C10.3176 16.4 12.0783 15.7192 13.4582 14.5891L18.2348 19.3656C18.3085 19.4424 18.3968 19.5037 18.4945 19.5459C18.5922 19.5882 18.6973 19.6105 18.8038 19.6115C18.9102 19.6126 19.0158 19.5925 19.1143 19.5522C19.2129 19.512 19.3024 19.4525 19.3776 19.3773C19.4529 19.302 19.5124 19.2125 19.5526 19.1139C19.5929 19.0154 19.613 18.9098 19.6119 18.8034C19.6109 18.6969 19.5886 18.5918 19.5463 18.4941C19.5041 18.3964 19.4428 18.3081 19.366 18.2344L14.5895 13.4578C15.7196 12.0779 16.4004 10.3172 16.4004 8.39999C16.4004 3.99119 12.8092 0.399994 8.40039 0.399994ZM8.40039 1.99999C11.9445 1.99999 14.8004 4.8559 14.8004 8.39999C14.8004 11.9441 11.9445 14.8 8.40039 14.8C4.85629 14.8 2.00039 11.9441 2.00039 8.39999C2.00039 4.8559 4.85629 1.99999 8.40039 1.99999Z"
+                              fill="white"
+                            />
+                          </svg>
+                        </span>
                       </div>
                       <Transition
                         as={Fragment}
