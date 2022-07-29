@@ -5,14 +5,14 @@ import { Main } from "./Pages/Main";
 
 function App({ pageProps }) {
   return (
-    <>
+    <div className="container">
       <Layout>{pageProps}</Layout>
       <Routes>
         {Main.map((page) => (
           <Route path={page?.path} element={page?.page} />
         ))}
       </Routes>
-    </>
+    </div>
   );
 }
 
