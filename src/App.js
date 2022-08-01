@@ -3,16 +3,20 @@ import "./App.css";
 import Layout from "./Components/Layout/Layout";
 import { Main } from "./Pages/Main";
 
-function App({ pageProps }) {
+function App({ component: Component, pageProps }) {
   return (
-    <div className="container">
-      <Layout>{pageProps}</Layout>
-      <Routes>
-        {Main.map((page) => (
-          <Route path={page?.path} element={page?.page} />
-        ))}
-      </Routes>
-    </div>
+    <>
+      <Layout>
+        {/* <Component {...pageProps} /> */}
+        <div className="container">
+          <Routes>
+            {Main.map((page) => (
+              <Route path={page?.path} element={page?.page} />
+            ))}
+          </Routes>
+        </div>
+      </Layout>
+    </>
   );
 }
 

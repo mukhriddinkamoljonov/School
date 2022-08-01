@@ -2,3 +2,20 @@
   max-width: 960px;
   margin: 0 auto;
 }
+
+.center-text {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #0e0e2c;
+}
+
+.center-text-line {
+  text-align: center;
+  width: 384px;
+  height: 4px;
+  background: #f3692e;
+  border-radius: 8px;
+  margin: auto;
+}
