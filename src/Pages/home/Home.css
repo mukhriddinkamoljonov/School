@@ -1,0 +1,98 @@
+@import url("http://fonts.cdnfonts.com/css/clarika-geometric");
+
+body {
+  font-family: "Clarika Geometric", sans-serif;
+}
+
+.sectionNav,
+div {
+  left: 0 !important;
+}
+
+.header_section-one {
+  background: url(../../assets/Images/homeImag.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.header-bc {
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 170px;
+}
+
+.header-content {
+  padding-left: 120px;
+  width: 650px;
+}
+
+.first-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #f36326;
+}
+
+.main-text {
+  font-family: "Clarika Geometric";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 96px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin: 20px 0 20px 0;
+}
+
+.last-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.header-content button {
+  margin-top: 40px;
+  width: 135px;
+  height: 56px;
+  color: #fff;
+  background: #f36326;
+  border-radius: 8px;
+}
+
+/* <<<<<<<<<<<<<<<<< Home Cards >>>>>>>>>>>>>>>>> */
+.home_cards {
+  padding-top: 15px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card_content {
+  margin-top: 40px;
+  padding-left: 120px;
+  padding-right: 90px;
+}
+
+.card-image {
+  background: linear-gradient(
+    8.12deg,
+    #293748 -0.77%,
+    rgba(41, 55, 72, 0) 63.64%
+  );
+  border-radius: 5.31456px;
+  z-index: 5;
+}

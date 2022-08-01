@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .ml-25 {
+    margin-left: 7rem;
+  }
+}
