@@ -12,7 +12,7 @@ const Umrah = () => {
       <img src={umrah}/>
     </div>
     </div>
-    <div className="text-center w-full pl=[165px]">
+    <div className="text-cente pl=[165px]">
       <h1 className="w-[569px] h-[58px] text-[48px] font-bold leading-[120%] ml-[486px] text-[#0E0E2C] mt-[30px]">Umrah Package 2022</h1>
       <p className="">
       7 - 17 August 2022  |  From £1395
