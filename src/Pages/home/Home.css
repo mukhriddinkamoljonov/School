@@ -181,7 +181,7 @@ div {
 
 .swiper-button-prev {
   position: absolute;
-  left: -30px !important;
+  left: -7px !important;
   right: auto !important;
   top: 210px !important;
   border: 7px solid #fff;
@@ -193,7 +193,7 @@ div {
 }
 .swiper-button-next {
   left: auto !important;
-  right: 10 !important;
+  right: -7px !important;
   top: 210px !important;
   z-index: 500;
   border: 7px solid #fff;
