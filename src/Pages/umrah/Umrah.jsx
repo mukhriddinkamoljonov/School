@@ -111,7 +111,7 @@ const Umrah = () => {
       </div>
     </div>
     <div className='w-[1110px]'>
-        <div className='w-[350px] h-[260px]'>
+        {/* <div className='w-[350px] h-[260px]'>
           <img src={} alt=""/>
         </div>
         <div className='w-[350px] h-[260px]'>
@@ -119,7 +119,7 @@ const Umrah = () => {
         </div>
         <div className='w-[350px] h-[260px]'>
           <img src={} alt=""/>
-        </div>
+        </div> */}
     </div>
     </div>
   )
