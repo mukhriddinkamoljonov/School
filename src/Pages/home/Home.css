@@ -7,6 +7,7 @@ body {
 .sectionNav,
 div {
   left: 0 !important;
+  /* z-index: -1 !important; */
 }
 
 .header_section-one {
@@ -83,16 +84,170 @@ div {
 
 .card_content {
   margin-top: 40px;
-  padding-left: 120px;
-  padding-right: 90px;
+  padding-left: 145px;
+  padding-right: 150px;
 }
 
 .card-image {
+  border-radius: 5.31456px;
+  z-index: 5;
+  width: 265px;
+}
+
+.card-image img {
   background: linear-gradient(
     8.12deg,
     #293748 -0.77%,
     rgba(41, 55, 72, 0) 63.64%
   );
-  border-radius: 5.31456px;
-  z-index: 5;
+  object-fit: cover;
+  width: 250px;
+  /* height: 240px; */
+}
+
+.card-item h1 {
+  font-weight: 700;
+  font-size: 31.8874px;
+  line-height: 38px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.home_urmrah {
+  background: #0b0815;
+  height: 100vh;
+}
+
+.home_umrah_content {
+  display: flex;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.home_umrah_image {
+  width: 100%;
+  height: 100vh;
+}
+
+.home_umrah_image img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home_urmrah_content_text {
+  color: #fff;
+  margin: 50px 0 0 0;
+  margin-right: 60px;
+  /* padding-left: 60px; */
+}
+
+.home_urmrah_content_text h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.003em;
+  width: 400px;
+}
+
+.home_urmrah_content_text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 40px 0 20px 0;
+  letter-spacing: 0.005em;
+  width: 400px;
+}
+
+.home_urmrah_content_text button {
+  margin-top: 40px;
+  width: 135px;
+  height: 56px;
+  color: #fff;
+  background: #f36326;
+  border-radius: 8px;
+}
+
+/* <<<<<<<<<<<< Carousel Start >>>>>>>>>>>>>>> */
+.swiper {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: -30px !important;
+  right: auto !important;
+  top: 210px !important;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  padding: 25px;
+  background: #0c111f;
+  color: #fff;
+  z-index: 100;
+}
+.swiper-button-next {
+  left: auto !important;
+  right: 10 !important;
+  top: 210px !important;
+  z-index: 500;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  padding: 25px;
+  background: #0c111f;
+  color: #fff;
+}
+
+.swiper-slide {
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 360px !important; */
+  right: 30px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* <<<<<<<<<<<< Carousel End >>>>>>>>>>>>>>> */
+
+.home_carousel {
+  padding-left: 90px;
+  padding-right: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.mySwiper {
+  /* margin-top: 0px; */
+}
+.carousel-content {
+}
+
+.swiper-wrapper {
+  width: 100px !important;
+}
+
+.carousel-item {
+  /* width: 400px; */
+}
+
+.carousel_image img {
+  width: 330px;
+  border-radius: 8px;
 }

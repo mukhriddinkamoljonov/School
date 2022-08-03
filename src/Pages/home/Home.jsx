@@ -9,6 +9,15 @@ import samarqand from "../../assets/Images/samarqand.png";
 import xiva from "../../assets/Images/xiva.png";
 import namangan from "../../assets/Images/namangan.png";
 import fargona from "../../assets/Images/fargona.png";
+import umrah from "../../assets/Images/umrah.png";
+import karimov from "../../assets/Images/karimov.png";
+import alisher from "../../assets/Images/alisher.png";
+import ziyorat from "../../assets/Images/ziyorat.png";
+import { Pagination, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const SectionStyle = {
   height: "100vh",
@@ -23,7 +32,7 @@ function Home() {
     <div className="home">
       <Fullpage>
         <div className="sectionNav">
-          <FullpageNavigation />
+          <FullpageNavigation style={{ zIndex: "-1" }} />
         </div>
         <FullPageSections>
           <FullpageSection style={{ SectionStyle }}>
@@ -66,6 +75,24 @@ function Home() {
                   </div>{" "}
                   <div className="card-item">
                     <div className="card-image">
+                      <img src={xiva} alt="" />
+                    </div>
+                    <h1 className="card-title">Samarqand</h1>
+                  </div>{" "}
+                  <div className="card-item">
+                    <div className="card-image">
+                      <img src={xiva} alt="" />
+                    </div>
+                    <h1 className="card-title">Samarqand</h1>
+                  </div>{" "}
+                  <div className="card-item">
+                    <div className="card-image">
+                      <img src={xiva} alt="" />
+                    </div>
+                    <h1 className="card-title">Samarqand</h1>
+                  </div>{" "}
+                  <div className="card-item">
+                    <div className="card-image">
                       <img src={namangan} alt="" />
                     </div>
                     <h1 className="card-title">Samarqand</h1>
@@ -87,10 +114,98 @@ function Home() {
             </div>
           </FullpageSection>
           <FullpageSection style={{ SectionStyle }}>
-            <h1>Style 3</h1>
+            <div className="home_urmrah">
+              <div className="home_umrah_content">
+                <div className="home_umrah_image">
+                  <img src={umrah} alt="" />
+                </div>
+                <div className="home_urmrah_content_text">
+                  <h1 className="home_urmrah_title">
+                    Umra ziyorati uchun hozir band qiling!
+                  </h1>
+                  <p className="home_urmrah_text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ipsum eget libero elementum amet ultricies ut hac ultrices
+                    ullamcorper. Enim nullam eu libero accumsan, nisl amet. Enim
+                    nullam eu libero accumsan, nisl amet. Enim nullam eu libero
+                    accumsan, nisl amet.
+                  </p>
+                  <button className="home_urmrah_button">Get Started</button>
+                </div>
+              </div>
+            </div>
           </FullpageSection>
           <FullpageSection style={{ SectionStyle }}>
-            <h1>Style 3</h1>
+            <div className="home_carousel">
+              <h1 className="center-text">Diqqatga sazovor joylar</h1>
+              <hr className="carousel-text-line" />{" "}
+              <div className="home_carousel_content">
+                <Swiper
+                  slidesPerView={3}
+                  spaceBetween={30}
+                  slidesPerGroup={3}
+                  loop={true}
+                  loopFillGroupWithBlank={true}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  navigation={true}
+                  modules={[Pagination, Navigation]}
+                  className="mySwiper"
+                >
+                  <div className="carousel-content">
+                    <SwiperSlide>
+                      <div className="carousel-item">
+                        <div className="carousel_image">
+                          <img src={karimov} alt="" />
+                        </div>
+                        <h1>Islom Karimov muzeyi</h1>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="carousel-item">
+                        <div className="carousel_image">
+                          <img src={alisher} alt="" />
+                        </div>
+                        <h1>Alisher Navoiy teatri</h1>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="carousel-item">
+                        <div className="carousel_image">
+                          <img src={ziyorat} alt="" />
+                        </div>
+                        <h1>Hazrati Dovud ziyoratgohi</h1>
+                      </div>
+                    </SwiperSlide>{" "}
+                    <SwiperSlide>
+                      <div className="carousel-item">
+                        <div className="carousel_image">
+                          <img src={alisher} alt="" />
+                        </div>
+                        <h1>Alisher Navoiy teatri</h1>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="carousel-item">
+                        <div className="carousel_image">
+                          <img src={karimov} alt="" />
+                        </div>
+                        <h1>Islom Karimov muzeyi</h1>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="carousel-item">
+                        <div className="carousel_image">
+                          <img src={ziyorat} alt="" />{" "}
+                        </div>
+                        <h1>Hazrati Dovud ziyoratgohi</h1>
+                      </div>
+                    </SwiperSlide>
+                  </div>
+                </Swiper>
+              </div>
+            </div>
           </FullpageSection>
           <FullpageSection style={{ SectionStyle }}>
             <h1>Style 3</h1>
