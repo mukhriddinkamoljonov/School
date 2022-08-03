@@ -208,7 +208,14 @@ function Home() {
             </div>
           </FullpageSection>
           <FullpageSection style={{ SectionStyle }}>
-            <h1>Style 3</h1>
+            <div className="home_galereya">
+              <div className="home_galereya_content">
+                <h1>Galereya</h1>
+                <div className="home_galereya_images">
+                  
+                </div>
+              </div>
+            </div>
           </FullpageSection>
           <FullpageSection style={{ SectionStyle }}>
             <h1>Style 3</h1>
