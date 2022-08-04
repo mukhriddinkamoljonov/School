@@ -110,17 +110,17 @@ const Umrah = () => {
         </div>
       </div>
     </div>
-    <div className='w-[1110px]'>
-        {/* <div className='w-[350px] h-[260px]'>
-          <img src={} alt=""/>
-        </div>
+    {/* <div className='w-[1110px]grid-rows-3'>
         <div className='w-[350px] h-[260px]'>
           <img src={} alt=""/>
         </div>
         <div className='w-[350px] h-[260px]'>
           <img src={} alt=""/>
-        </div> */}
-    </div>
+        </div>
+        <div className='w-[350px] h-[260px]'>
+          <img src={} alt=""/>
+        </div>
+    </div> */}
     </div>
   )
 }
