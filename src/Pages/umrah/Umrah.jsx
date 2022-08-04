@@ -171,7 +171,7 @@ const Umrah = () => {
           <img src={rasm3} className="w-[320px] h-[260px]" alt=""/>
         </div>
     </div>
-    <div className="w-[1030px] mt-[20px] ml-[120px]">
+    <div className="w-[1030px] mt-[20px] ml-[120px] font-normal text-[20px]">
       <p>Conrad Makkah Hotel – 5 Star </p>
       <p className="mt-[20px]">
           One of Makkah’s top hotels, Conrad Hotels & Resorts is a brand of high-end luxury hotels owned and operated by Hilton Worldwide.  Located steps away from King Fahad gate of Masjid al-Haram.  Featuring spacious luxury rooms including feature bathrooms, Conrad Makkah features four restaurants serving Arabic and international cuisine, a fitness centre, and light-filled meeting spaces.
@@ -218,8 +218,23 @@ const Umrah = () => {
           </div>
       </div>
     </div>
-    <div>
-      
+    <div className="w-[1030px] mt-[30px] ml-[120px] font-normal text-[20px]">
+      <span className="text-[#F3692E] mt-[10px]">How to book:</span>
+      <p className="mt-[10px]">We will require the following:</p>
+      <ul className="umrah_ul  ml-[20px] mt-[20px]">
+        <li>A completed booking form; (one per person) - please email completed booking form to mail@al-hidaayah.travel
+        </li>
+        <li>A deposit of £1000 per passenger (non-refundable) payable by bank transfer, cash or debit card.
+        </li>
+        <li>
+        To pay by bank transfer, please remit funds to:
+        </li>
+      </ul>
+      <ul className="umrah_ul  ml-[20px] mt-[30px]">
+        <li>Account Name: ACCOUNT UMRAH</li>
+        <li>Account Number: 930006644</li>
+        <li>Reference: Please insert your postcode</li>
+      </ul>
     </div>
     </div>
   );
