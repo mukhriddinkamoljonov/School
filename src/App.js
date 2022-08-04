@@ -6,12 +6,16 @@ import { Main } from "./Pages/Main";
 function App({ pageProps }) {
   return (
     <>
-      <Layout>{pageProps}</Layout>
-      <Routes>
-        {Main.map((page) => (
-          <Route path={page?.path} element={page?.page} />
-        ))}
-      </Routes>
+    <Layout>
+        {/* <Component {...pageProps} /> */}
+        <div className="container">
+          <Routes>
+            {Main.map((page) => (
+              <Route path={page?.path} element={page?.page} />
+            ))}
+          </Routes>
+        </div>
+      </Layout>
     </>
   );
 }
