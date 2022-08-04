@@ -1,6 +1,15 @@
 import React from "react";
 import "./umrah.css";
 import umrah from "../../assets/image 1.png";
+import rasm1 from "../../assets/Rectangle 2815.png";
+import rasm2 from "../../assets/Rectangle 9552.png";
+import rasm3 from "../../assets/Rectangle 9553.png";
+import rasm4 from "../../assets/Rectangle 22434.png";
+import rasm5 from "../../assets/Rectangle 22435.png";
+import rasm6 from "../../assets/Rectangle 22436.png";
+import rasm7 from "../../assets/rasm7.png";
+import rasm8 from "../../assets/rasm8.png";
+import rasm9 from "../../assets/rasm9.png";
 
 const Umrah = () => {
   return (
@@ -151,17 +160,62 @@ const Umrah = () => {
           </div>
         </div>
       </div>
-      {/* <div className='w-[1110px]'>
-        <div className='w-[350px] h-[260px]'>
-          <img src={} alt=""/>
+      <div className='w-[1030px] flex mt-[1430px] ml-[120px]'>
+        <div className=''>
+          <img src={rasm1} className="w-[320px] h-[260px]" alt=""/>
         </div>
-        <div className='w-[350px] h-[260px]'>
-          <img src={} alt=""/>
+        <div className='ml-[40px]'>
+          <img src={rasm2} className="w-[320px] h-[260px]" alt=""/>
         </div>
-        <div className='w-[350px] h-[260px]'>
-          <img src={} alt=""/>
+        <div className='ml-[40px]'>
+          <img src={rasm3} className="w-[320px] h-[260px]" alt=""/>
         </div>
-    </div> */}
+    </div>
+    <div className="w-[1030px] mt-[20px] ml-[120px]">
+      <p>Conrad Makkah Hotel – 5 Star </p>
+      <p className="mt-[20px]">
+          One of Makkah’s top hotels, Conrad Hotels & Resorts is a brand of high-end luxury hotels owned and operated by Hilton Worldwide.  Located steps away from King Fahad gate of Masjid al-Haram.  Featuring spacious luxury rooms including feature bathrooms, Conrad Makkah features four restaurants serving Arabic and international cuisine, a fitness centre, and light-filled meeting spaces.
+      </p>
+      <p className="mt-[20px]">For a convenient shopping experience in Makkah, the hotel provides direct    access to the shopping mall within Jabal Umar complex.
+      </p>
+    </div>
+    <div className='w-[1030px] flex mt-[30px] ml-[120px]'>
+        <div className=''>
+          <img src={rasm4} className="w-[320px] h-[260px]" alt=""/>
+        </div>
+        <div className='ml-[40px]'>
+          <img src={rasm5} className="w-[320px] h-[260px]" alt=""/>
+        </div>
+        <div className='ml-[40px]'>
+          <img src={rasm6} className="w-[320px] h-[260px]" alt=""/>
+        </div>
+    </div>
+    <div className="w-[1030px] flex mt-[30px] ml-[120px]">
+      <span className="text-[#F3692E]">Price (per person):</span>
+      <div className="w-[1030px] mt-[30px] ml-[120px]">
+          <div>
+            <img src={rasm7} alt=""/>
+            <span>
+              <h3>Double Occupancy</h3>
+              <p>£1595</p>
+            </span>
+          </div>
+          <div>
+            <img src={rasm8} alt=""/>
+            <span>
+              <h3>Double Occupancy</h3>
+              <p>£1595</p>
+            </span>
+          </div>
+          <div>
+            <img src={rasm9} alt=""/>
+            <span>
+              <h3>Double Occupancy</h3>
+              <p>£1595</p>
+            </span>
+          </div>
+      </div>
+    </div>
     </div>
   );
 };
