@@ -190,31 +190,36 @@ const Umrah = () => {
           <img src={rasm6} className="w-[320px] h-[260px]" alt=""/>
         </div>
     </div>
-    <div className="w-[1030px] flex mt-[30px] ml-[120px]">
+    <div className="w-[1030px] mt-[30px] ml-[120px]">
       <span className="text-[#F3692E]">Price (per person):</span>
-      <div className="w-[1030px] mt-[30px] ml-[120px]">
-          <div>
-            <img src={rasm7} alt=""/>
-            <span>
+      <div className="w-[1030px] mt-[40px] border-black border-[1px] rounded-[10px]">
+          <div className="flex items-center ml-[50px]">
+            <img src={rasm7} className="hotel_img" alt=""/>
+            <span className="text-[25px] ml-[50px]">
               <h3>Double Occupancy</h3>
               <p>£1595</p>
             </span>
           </div>
-          <div>
-            <img src={rasm8} alt=""/>
-            <span>
+          <hr  className="w-[970px] ml-[25px] border-black border-[0.5px] "/>
+          <div className="flex items-center ml-[50px]">
+            <img src={rasm8} className="hotel_img" alt=""/>
+            <span className="text-[25px] ml-[50px]">
               <h3>Double Occupancy</h3>
               <p>£1595</p>
             </span>
           </div>
-          <div>
-            <img src={rasm9} alt=""/>
-            <span>
+          <hr  className="w-[970px] ml-[25px] border-black border-[0.5px] "/>
+          <div className="flex items-center ml-[50px]">
+            <img src={rasm9} className="hotel_img" alt=""/>
+            <span className="text-[25px] ml-[50px]">
               <h3>Double Occupancy</h3>
               <p>£1595</p>
             </span>
           </div>
       </div>
+    </div>
+    <div>
+      
     </div>
     </div>
   );
