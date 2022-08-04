@@ -217,15 +217,14 @@ function Home() {
               <div className="home_galereya_content">
                 <h1 className="center-text_3">Galereya</h1>
                 <hr className="center-text-line_3" />
-                <div className="home_galereya_images flex">
+                <div className="home_galereya_images">
                   <div>
                     <img src={saroy} alt="" />
-
                     <img src={chorvoq} alt="" />
                   </div>
                   <div>
                     <img src={haykal} alt="" />
-                  </div>{" "}
+                  </div>
                   <div>
                     <img src={samar} alt="" />
                     <img src={naman} alt="" />
