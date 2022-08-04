@@ -251,3 +251,17 @@ div {
   width: 330px;
   border-radius: 8px;
 }
+
+/* Galereya */
+.home_galereya {
+  background: linear-gradient(180deg, #0b111a 0%, #1c244a 100%);
+  height: 100vh;
+  color: #fff;
+}
+
+.home_galereya_content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}

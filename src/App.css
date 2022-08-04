@@ -12,11 +12,28 @@
   /* border-bottom: 4px solid   #f3692e; */
 }
 
+.center-text_3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #fff;
+  /* border-bottom: 4px solid   #f3692e; */
+}
+
 .center-text-line {
   text-align: center;
   width: 384px;
   height: 4px;
   background: #f3692e;
+  border-radius: 8px;
+  margin: auto;
+}
+.center-text-line_3 {
+  width: 199px;
+  height: 3px;
+  background: #f3692e;
+  border: none;
   border-radius: 8px;
   margin: auto;
 }

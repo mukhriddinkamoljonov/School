@@ -13,6 +13,11 @@ import umrah from "../../assets/Images/umrah.png";
 import karimov from "../../assets/Images/karimov.png";
 import alisher from "../../assets/Images/alisher.png";
 import ziyorat from "../../assets/Images/ziyorat.png";
+import saroy from "../../assets/Images/saroy.png";
+import chorvoq from "../../assets/Images/chorvoq.png";
+import haykal from "../../assets/Images/haykal.png";
+import samar from "../../assets/Images/samar.png";
+import naman from "../../assets/Images/naman.png";
 import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -138,7 +143,7 @@ function Home() {
           <FullpageSection style={{ SectionStyle }}>
             <div className="home_carousel">
               <h1 className="center-text">Diqqatga sazovor joylar</h1>
-              <hr className="carousel-text-line" />{" "}
+              <hr className="carousel-text-line" />
               <div className="home_carousel_content">
                 <Swiper
                   slidesPerView={3}
@@ -210,9 +215,21 @@ function Home() {
           <FullpageSection style={{ SectionStyle }}>
             <div className="home_galereya">
               <div className="home_galereya_content">
-                <h1>Galereya</h1>
-                <div className="home_galereya_images">
-                  
+                <h1 className="center-text_3">Galereya</h1>
+                <hr className="center-text-line_3" />
+                <div className="home_galereya_images flex">
+                  <div>
+                    <img src={saroy} alt="" />
+
+                    <img src={chorvoq} alt="" />
+                  </div>
+                  <div>
+                    <img src={haykal} alt="" />
+                  </div>{" "}
+                  <div>
+                    <img src={samar} alt="" />
+                    <img src={naman} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
