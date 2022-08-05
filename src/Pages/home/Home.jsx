@@ -26,7 +26,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { MapIcon } from "../../assets/icon";
+import { FileIcon, MapIcon, MessengeIcon, PhoneIcon } from "../../assets/icon";
 
 const SectionStyle = {
   height: "100vh",
@@ -272,20 +272,45 @@ function Home() {
             </div>
           </FullpageSection>
           <FullpageSection style={{ SectionStyle }}>
-             <div className="home_contact">
+            <div className="home_contact">
               <h1 className="center-text_5">Kontaktlarimiz</h1>
               <hr className="center-text-line_5" />
-              <div className="home_contact_content">
-                <div>
-                  <span>
-                    <MapIcon />
-                  </span>
-                  <span>
-                    436 Coventry Road Small Heath Birmingham B10 0UG United
-                    Kingdom
-                  </span>{" "}
+              <div className="home_contact_content flex">
+                <div className="">
+                  <div className="flex">
+                    <span>
+                      <MapIcon />
+                    </span>
+                    <p>
+                      436 Coventry Road Small <br /> Heath Birmingham B10 0UG{" "}
+                      <br /> United Kingdom
+                    </p>
+                  </div>{" "}
+                  <br />
+                  <div className="flex">
+                    <span>
+                      <PhoneIcon />
+                    </span>
+                    <p>(+1) 923 2341 22</p>
+                  </div>
+                </div>
+                <div className="mb-11">
+                  <div className="flex">
+                    <span>
+                      <MessengeIcon />
+                    </span>
+                    <p>contact@TourismUmrah.com</p>
+                  </div>{" "}
+                  <br />
+                  <div className="flex">
+                    <span>
+                      <FileIcon />
+                    </span>
+                    <p>fax@TourismUmrah.com</p>
+                  </div>
                 </div>
               </div>
+              <button>So‘rov yuborish</button>
             </div>
           </FullpageSection>
         </FullPageSections>

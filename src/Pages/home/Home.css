@@ -341,3 +341,37 @@ div {
   letter-spacing: 0.005em;
   font-feature-settings: "liga" off;
 }
+
+/* Contact */
+.home_contact {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.home_contact_content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.home_contact_content p {
+  margin-left: 10px;
+}
+
+.home_contact_content div {
+  margin-right: 30px;
+}
+
+.home_contact button {
+  margin-top: 80px;
+  width: 174px;
+  height: 56px;
+  color: #fff;
+  background: #f36326;
+  border-radius: 8px;
+}
