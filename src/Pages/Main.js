@@ -1,6 +1,6 @@
 import City from "./cites/City";
 import Home from "./home/Home";
-import Umrah from "./umrah/Umrah";
+
 
 export const Main = [
   {
@@ -11,8 +11,5 @@ export const Main = [
     path: "/cites",
     page: <City />,
   },
- {
-  path: "/umrah",
-  page: <Umrah />
- }
+
 ];
