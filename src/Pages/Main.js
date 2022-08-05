@@ -11,8 +11,8 @@ export const Main = [
     path: "/cites",
     page: <City />,
   },
-  {
-    path: "/umrah",     
-    page: <Umrah />,
-  }
+ {
+  path: "/umrah",
+  page: <Umrah />
+ }
 ];
