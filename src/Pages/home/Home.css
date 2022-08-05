@@ -263,5 +263,115 @@ div {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 5px;
+}
+
+.home_galereya_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 35px;
+  height: 500px;
+}
+
+.home_galereya_images img {
+  margin: 10px 5px 5px 5px;
+}
+
+.home_galereya_content button {
+  margin-top: 40px;
+  width: 189px;
+  height: 56px;
+  color: #fff;
+  background: #f36326;
+  border-radius: 8px;
+  letter-spacing: 0.005em;
+  font-feature-settings: "liga" off;
+}
+
+/* About */
+.home_about {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home_about-content {
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+}
+
+.about-img {
+  display: flex;
+  width: 300px;
+  height: 265px;
+  margin-top: -60px;
+}
+
+.about-img img:nth-last-child(1) {
+  margin-left: 20px;
+}
+
+.about-image_1 {
+  width: 550px;
+  height: 280px;
+}
+
+.about-text {
+  width: 300px;
+  text-align: left;
+  margin-right: 210px;
+}
+
+.about-text p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.about-text button {
+  margin-top: 110px;
+  width: 162px;
+  height: 56px;
+  color: #fff;
+  background: #f36326;
+  border-radius: 8px;
+  letter-spacing: 0.005em;
+  font-feature-settings: "liga" off;
+}
+
+/* Contact */
+.home_contact {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.home_contact_content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  text-align: left;
+}
+
+.home_contact_content p {
+  margin-left: 10px;
+}
+
+.home_contact_content div {
+  margin-right: 30px;
+}
+
+.home_contact button {
+  margin-top: 80px;
+  width: 174px;
+  height: 56px;
+  color: #fff;
+  background: #f36326;
+  border-radius: 8px;
 }

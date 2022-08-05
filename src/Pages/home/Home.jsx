@@ -18,11 +18,15 @@ import chorvoq from "../../assets/Images/chorvoq.png";
 import haykal from "../../assets/Images/haykal.png";
 import samar from "../../assets/Images/samar.png";
 import naman from "../../assets/Images/naman.png";
+import about1 from "../../assets/Images/about1.png";
+import about2 from "../../assets/Images/about2.png";
+import about3 from "../../assets/Images/about3.png";
 import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { FileIcon, MapIcon, MessengeIcon, PhoneIcon } from "../../assets/icon";
 
 const SectionStyle = {
   height: "100vh",
@@ -217,25 +221,97 @@ function Home() {
               <div className="home_galereya_content">
                 <h1 className="center-text_3">Galereya</h1>
                 <hr className="center-text-line_3" />
-                <div className="home_galereya_images flex">
+                <div className="home_galereya_images">
                   <div>
                     <img src={saroy} alt="" />
-
                     <img src={chorvoq} alt="" />
                   </div>
                   <div>
                     <img src={haykal} alt="" />
-                  </div>{" "}
+                  </div>
                   <div>
                     <img src={samar} alt="" />
                     <img src={naman} alt="" />
+                  </div>
+                </div>
+                <button>Barchasini ko‘rish</button>
+              </div>
+            </div>
+          </FullpageSection>
+          <FullpageSection style={{ SectionStyle }}>
+            <div className="home_about">
+              <h1 className="center-text_4">Biz haqimizda</h1>
+              <hr className="center-text-line_4" />
+              <div class="grid grid-rows-3 grid-flow-col gap-4 home_about-content">
+                <div class="col-span-2 about-image_1">
+                  <img src={about1} alt="" />
+                </div>
+                <div class="row-span-2 col-span-2 about-img">
+                  <img src={about2} alt="" />
+                  <img src={about3} alt="" />
+                </div>
+                <div class="row-span-3 about-text">
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ipsum eget libero elementum amet ultricies ut hac ultrices
+                      ullamcorper. Enim nullam eu libero accumsan, nisl amet.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ipsum eget libero elementum amet ultricies ut hac ultrices
+                      ullamcorper. Lorem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Ipsum eget libero elementum amet
+                      ultricies ut hac ultrices ullamcorper. Enim nullam eu
+                      libero accumsan, nisl amet. Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Ipsum eget libero elementum
+                      amet ultricies ut hac ultrices ullamcorper.
+                    </p>
+                    <button>Ko‘proq bilish</button>
                   </div>
                 </div>
               </div>
             </div>
           </FullpageSection>
           <FullpageSection style={{ SectionStyle }}>
-            <h1>Style 3</h1>
+            <div className="home_contact">
+              <h1 className="center-text_5">Kontaktlarimiz</h1>
+              <hr className="center-text-line_5" />
+              <div className="home_contact_content flex">
+                <div className="">
+                  <div className="flex">
+                    <span>
+                      <MapIcon />
+                    </span>
+                    <p>
+                      436 Coventry Road Small <br /> Heath Birmingham B10 0UG{" "}
+                      <br /> United Kingdom
+                    </p>
+                  </div>{" "}
+                  <br />
+                  <div className="flex">
+                    <span>
+                      <PhoneIcon />
+                    </span>
+                    <p>(+1) 923 2341 22</p>
+                  </div>
+                </div>
+                <div className="mb-11">
+                  <div className="flex">
+                    <span>
+                      <MessengeIcon />
+                    </span>
+                    <p>contact@TourismUmrah.com</p>
+                  </div>{" "}
+                  <br />
+                  <div className="flex">
+                    <span>
+                      <FileIcon />
+                    </span>
+                    <p>fax@TourismUmrah.com</p>
+                  </div>
+                </div>
+              </div>
+              <button>So‘rov yuborish</button>
+            </div>
           </FullpageSection>
         </FullPageSections>
       </Fullpage>
